@@ -2,6 +2,9 @@ import 'package:intl/date_symbol_data_local.dart';
 import 'package:intl/intl.dart';
 
 /// Classe para manipular datas.
+@Deprecated(
+  'Funcionalidades foram migradas para package brasil_datetime',
+)
 class UtilData {
   /// Validar se uma data está no formato brasileiro `DDMMAAAA`.
   static bool validarData(String data) {
